@@ -92,7 +92,7 @@ Mat approximerImageParVoronoi(const Mat& imageOriginale, const vector<Point2i>& 
 
 int main() {
     // Charger une image existante (vous pouvez utiliser votre propre image)
-    Mat imageOriginale = imread("./images/riolu_ruban1.png");
+    Mat imageOriginale = imread("input.png");
 
     // Vérifier si l'image est chargée avec succès
     if (imageOriginale.empty()) {
@@ -118,7 +118,7 @@ int main() {
     imshow("Image Originale", imageOriginale);
     imshow("Diagramme de Voronoi", resultat);
     imshow("Approximation par Voronoi", imageApprox);
-    imwrite("./images/riolu_ruban_lowpoly2.png", imageApprox);
+    imwrite("output.png", imageApprox);
     waitKey(0);
 
     return 0;
