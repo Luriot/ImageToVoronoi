@@ -63,7 +63,7 @@ Si vous utilisez Visual Studio pour votre projet, vous pouvez facilement créer 
 
 ## Algorithmes de distance disponibles
 
-1. **Euclidienne** : Distance classique entre deux points dans un espace 2D. (par défaut dans le fichier)
+1. **Euclidienne** : Distance classique entre deux points dans un espace 2D. (par défaut)
 2. **Manhattan** : Distance parcourue en suivant une grille (somme des distances horizontales et verticales).
 3. **Chebyshev** : Plus grande différence entre les coordonnées x ou y des deux points.
 
