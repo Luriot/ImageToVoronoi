@@ -29,7 +29,7 @@ Ce projet est une implémentation en C++ d'un algorithme de création de diagram
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/Luriot/VoronoiImageApproximation.git
+   git clone https://github.com/Luriot/ImageToVoronoi.git
    cd VoronoiImageApproximation
    ```
 
